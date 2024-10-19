@@ -324,13 +324,17 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 60px 0px 24px 0px;
-    column-gap: 8px;
+    column-gap: 15px;
 }
 
 .copyright {
     text-align: center;
     color: var(--white);
     padding-bottom: 50px;
+}
+
+.copyright p + P {
+    margin-top: 0.5em;
 }
 
 @media (max-width:620px) {
@@ -392,6 +396,23 @@ html, body {
         order: 0;
     }
 }
+
+@media (max-width:425px) {
+    .nav_adaptive_item {
+        width: 38em;
+    }
+
+    .section {
+        display: flex;
+    }
+    .footer_adaptive_item {
+        width: 38em;
+    }
+}
+
+
+
+
 
 /* light-dark */
 
