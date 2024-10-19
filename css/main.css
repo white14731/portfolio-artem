@@ -398,15 +398,8 @@ html, body {
 }
 
 @media (max-width:425px) {
-    .nav_adaptive_item {
-        width: 38em;
-    }
-
-    .section {
-        display: flex;
-    }
-    .footer_adaptive_item {
-        width: 38em;
+    .content-list {
+        display: inline;
     }
 }
 
